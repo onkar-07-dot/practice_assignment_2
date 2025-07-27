@@ -1,6 +1,11 @@
  
 
- function prime(number){
+ function isprime(number){
+
+    if(number<=1){
+
+        return false;
+    }
 
     for(let i=2;i<number;i++){
 
@@ -18,8 +23,10 @@
 
 
 
+
 console.log(prime(97));
 console.log(prime(33));
 console.log(prime(17));
 console.log(prime(27));
+
 
