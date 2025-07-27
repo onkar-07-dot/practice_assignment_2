@@ -4,20 +4,22 @@
 
     for(let i=2;i<number;i++){
 
-        if(number%i!=0){
 
-           return true;
-        }
-        else{
+        if(num%i==0){
+
+        if(number%i!=0){
 
             return false;
         }
+    }
+        return true;
     }    
 
-}
+
+
 
 console.log(prime(97));
-console.log(prime(100));
-console.log(prime(7));
-console.log(prime(9));
-console.log(prime(117));
+console.log(prime(33));
+console.log(prime(17));
+console.log(prime(27));
+
