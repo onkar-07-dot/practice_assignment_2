@@ -1,6 +1,11 @@
  
 
- function prime(number){
+ function isprime(number){
+
+    if(number<=1){
+
+        return false;
+    }
 
     for(let i=2;i<number;i++){
 
@@ -16,8 +21,10 @@
 
 }
 
-console.log(prime(97));
-console.log(prime(100));
-console.log(prime(7));
-console.log(prime(9));
-console.log(prime(117));
+console.log(isprime(97));
+console.log(isprime(100));
+console.log(isprime(7));
+console.log(isprime(1));
+console.log(isprime(117));
+console.log(isprime(17));
+console.log(isprime(27));
