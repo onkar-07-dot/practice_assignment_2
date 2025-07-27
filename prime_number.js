@@ -9,22 +9,24 @@
 
     for(let i=2;i<number;i++){
 
-        if(number%i!=0){
 
-           return true;
-        }
-        else{
+        if(num%i==0){
+
+        if(number%i!=0){
 
             return false;
         }
+    }
+        return true;
     }    
 
-}
 
-console.log(isprime(97));
-console.log(isprime(100));
-console.log(isprime(7));
-console.log(isprime(1));
-console.log(isprime(117));
-console.log(isprime(17));
-console.log(isprime(27));
+
+
+
+console.log(prime(97));
+console.log(prime(33));
+console.log(prime(17));
+console.log(prime(27));
+
+
